@@ -1,0 +1,18 @@
+{
+  "name": "Minecraft Forge Modding",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "gradle": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "minecraft-development.minecraft-development"
+      ]
+    }
+  },
+  "forwardPorts": [25565],
+  "remoteUser": "vscode"
+}
