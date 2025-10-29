@@ -1,6 +1,6 @@
 {
   "name": "Minecraft Forge Modding",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
   "features": {
     "gradle": "latest"
   },
