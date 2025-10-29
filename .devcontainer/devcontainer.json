@@ -8,11 +8,11 @@
     "vscode": {
       "extensions": [
         "vscjava.vscode-java-pack",
-        "redhat.java",
-        "minecraft-development.minecraft-development"
+        "redhat.java"
       ]
     }
   },
   "forwardPorts": [25565],
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "postCreateCommand": "echo 'Forge development container ready. Run ./gradlew genIntellijRuns or ./gradlew genVSCodeRuns to generate run configurations.'"
 }
